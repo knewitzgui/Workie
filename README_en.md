@@ -22,8 +22,8 @@
 
 #### CEP search on Correios:
 - call consultaCep('env', 'cep').
-    - env = field text, wich environment is being used. Ex.: prod, dev.
-    - cep = field text, CEP without special characters, only numbers.
+    - env = text field, wich environment is being used. Ex.: prod, dev.
+    - cep = text field, CEP without special characters, only numbers.
 - Return of an object with bairro, cep, cidade, complemento, endereço, uf.
 
         Example:
