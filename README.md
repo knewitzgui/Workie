@@ -1,4 +1,4 @@
-# dagaz
+# Dagaz
 
 Formatação de CPF e CNPJ:
     Input type number
@@ -6,7 +6,7 @@ Formatação de CPF e CNPJ:
     *Não conter caracteres especiais, apenas números
 
 Formatação de telefone:
-    Input type number
+       Input type number
     chamada formatPhone(number)
     *Não conter caracteres especiais, apenas números
 
