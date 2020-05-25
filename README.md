@@ -1,5 +1,8 @@
 # Dagaz
 
+Install via npm
+npm install dagaz
+
 Formatação de CPF e CNPJ:
 - Input type number
 - chamada formatCpfCnpj(number)
