@@ -1,0 +1,28 @@
+{
+  "name": "dagaz",
+  "version": "1.1.0",
+  "description": "A utility package with multiple pre made functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knewitzgui/dagaz.git"
+  },
+  "keywords": [
+    "utility",
+    "facility",
+    "pre",
+    "made"
+  ],
+  "author": "Guilherme Maier Knewitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knewitzgui/dagaz/issues"
+  },
+  "homepage": "https://github.com/knewitzgui/dagaz#readme",
+  "dependencies": {
+    "soap": "^0.31.0"
+  }
+}
