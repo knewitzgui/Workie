@@ -1,7 +1,7 @@
 # Workie
 
 ## Instalação
-    npm install dagaz
+    npm install workie
     
 ## Utilização
 
