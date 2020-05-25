@@ -1,4 +1,4 @@
-# Dagaz
+# Workie
 
 ## Instalação
     npm install dagaz
