@@ -1,37 +1,37 @@
 # Workie
 
-## Instalação
+## Installation
     npm install workie
     
-## Utilização
+## Usage
 
-#### Formatação de CPF e CNPJ:
+#### Format CPF and CNPJ:
 - Input type number.
-- chamada formatCpfCnpj(number).
-- *Não conter caracteres especiais, apenas números.
+- call formatCpfCnpj(number).
+- *Cannot contain special characters, only numbers.
 
-#### Formatação de telefone:
+#### Format phone:
 - Input type number.
-- chamada formatPhone(number).
-- *Não conter caracteres especiais, apenas números.
+- call formatPhone(number).
+- *Cannot contain special characters, only numbers.
 
-#### Formatação de CEP:
+#### Format CEP:
 - Input type number.
-- chamada formatCep(number).
-- *Não conter caracteres especiais, apenas números.
+- call formatCep(number).
+- *Cannot contain special characters, only numbers.
 
-#### Consulta de CEP nos correios:
-- Chamada consultaCep('env', 'cep').
-    - env = campo text, ambiente que está sendo utilizado. Ex.: prod, dev.
-    - cep = campo text, CEP sem caracteres especiais apenas números.
-- Retorno de um objeto com bairro, cep, cidade, complemento, endereço, uf.
+#### CEP search on Correios:
+- call consultaCep('env', 'cep').
+    - env = text field, wich environment is being used. Ex.: prod, dev.
+    - cep = text field, CEP without special characters, only numbers.
+- Return of an object with bairro, cep, cidade, complemento, endereço, uf.
 
-        Exemplo de uso:
+        Example:
         consultaCEP('dev', '93315400')
             .then(address => console.log(address))
             .catch(err => console.log(err))
 
-        Retorno:
+        Return:
         {
         bairro: 'Operário',
         cep: '93315400',
@@ -43,5 +43,5 @@
 
 
 
-## Dependencias: 
+## Dependencies: 
 "soap": "^0.31.0"
