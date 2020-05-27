@@ -1,3 +1,7 @@
+/**
+ * @param {String} value - Cep value
+ * @returns {String} - Return formatted zip code
+ */
 var cep = function(value){
     value = value.toString();
     value = value.replace(/\D/g,"")

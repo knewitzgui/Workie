@@ -1,3 +1,7 @@
+/**
+ * @param {String} value - Cpf or Cnpj value
+ * @returns {String} - Return formatted cpf or cnpj
+ */
 var cpfCnpj = function(value){
     value = value.toString();
     if(value.length == 11){
@@ -13,7 +17,7 @@ var cpfCnpj = function(value){
         value = value.replace(/(\d{4})(\d)/,"$1-$2")
     }else{
         return {
-            error: 'Verifique a quantidade de digitos'
+            error: 'Check the number of characters'
         }
     }
 
