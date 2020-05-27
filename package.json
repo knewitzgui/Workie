@@ -1,6 +1,6 @@
 {
   "name": "workie",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A utility package with multiple pre made functions",
   "main": "index.js",
   "scripts": {
