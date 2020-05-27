@@ -3,7 +3,7 @@ var formatPhone = require('./src/maskPhone');
 var formatCep = require('./src/maskCep');
 var consultaCep = require('./src/consultaCep');
 
-// consultaCep('dev', '93315400')
+// consultaCep('93315400')
 //   .then(address => console.log(address))
 //   .catch(err => console.log(err))
 // console.log(formatPhone(51993150226))

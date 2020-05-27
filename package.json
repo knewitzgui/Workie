@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/knewitzgui/Workie#readme",
   "dependencies": {
+    "cep-promise": "^3.0.9",
     "soap": "^0.31.0"
   }
 }
