@@ -1,3 +1,7 @@
+/**
+ * @param {String} value - Phone value
+ * @returns {String} - Return formatted phone
+ */
 var phone = function(value){
     value = value.toString();
     value = value.replace(/\D/g,"")
