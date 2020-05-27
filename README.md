@@ -1,7 +1,14 @@
 # Workie
 
 ## Installation
-    npm install workie
+Install with npm:
+```
+npm install workie
+```
+Install with yarn:
+```
+yarn add workie
+```
     
 ## Usage
 
@@ -88,3 +95,6 @@ consultaCep('123456789123456789')
 
 ## Dependencies: 
 "cep-promise": "^3.0.9"
+
+## License
+MIT &copy; [Guilherme Maier Knewitz](https://github.com/knewitzgui)

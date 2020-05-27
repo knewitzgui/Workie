@@ -1,8 +1,14 @@
 # Workie
 
 ## Instalação
-    npm install workie
-    
+Instalar via npm:
+```
+npm install workie
+```
+Instalar via yarn:
+```
+yarn add workie
+```
 ## Utilização
 
 #### Formatação de CPF e CNPJ:
@@ -88,3 +94,7 @@ consultaCep('123456789123456789')
 
 ## Dependencias: 
 "cep-promise": "^3.0.9"
+
+## Licença
+MIT &copy; [Guilherme Maier Knewitz](https://github.com/knewitzgui)
+

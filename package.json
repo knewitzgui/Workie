@@ -1,6 +1,6 @@
 {
   "name": "workie",
-  "version": "1.1.7",
+  "version": "1.2.0",
   "description": "A utility package with multiple pre made functions",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,12 @@
     "utility",
     "facility",
     "pre",
-    "made"
+    "made",
+    "masks",
+    "cep",
+    "utilidade",
+    "format",
+    "mascara"
   ],
   "author": "Guilherme Maier Knewitz",
   "license": "MIT",
