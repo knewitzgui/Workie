@@ -7,40 +7,40 @@
 
 #### Formatação de CPF e CNPJ:
 - Input type number.
-- chamada formatCpfCnpj(number).
+- Chamada formatCpfCnpj(number).
 - *Não conter caracteres especiais, apenas números.
 
 #### Formatação de telefone:
 - Input type number.
-- chamada formatPhone(number).
+- Chamada formatPhone(number).
 - *Não conter caracteres especiais, apenas números.
 
 #### Formatação de CEP:
 - Input type number.
-- chamada formatCep(number).
+- Chamada formatCep(number).
 - *Não conter caracteres especiais, apenas números.
 
 
-### Realizando uma consulta usando o `consultaCep`
+#### Realizando uma consulta usando o `consultaCep`
 
 O modulo de consultar cep utiliza por baixo dos panos o `cep-promise` que é multifornecedor, a biblioteca irá resolver a Promise com o fornecedor que **mais rápido** lhe responder.
 
 ``` js
 import {consultaCep} from 'workie'
 
-consultaCep('05010000')
+consultaCep('93315400')
   .then(console.log)
 
   // {
-  //   "cep":  "05010000",
-  //   "state":  "SP",
-  //   "city":  "São Paulo",
-  //   "street":  "Rua Caiubí",
-  //   "neighborhood":  "Perdizes",
+  //   "cep":  "93315400",
+  //   "state":  "RS",
+  //   "city":  "Novo Hamburgo",
+  //   "street":  "Rua Visconde de Ouro Preto",
+  //   "neighborhood":  "Operário",
   // }
 ```
 
-### Quando o CEP não é encontrado
+#### Quando o CEP não é encontrado
 
 Neste caso será retornado um `"service_error"` e por ser multifornecedor, a biblioteca irá rejeitar a Promise apenas quando tiver a resposta negativa de todos os fornecedores.
 
@@ -65,7 +65,7 @@ consultaCep('99999999')
 
 ```
 
-### Quando o CEP possui um formato inválido
+#### Quando o CEP possui um formato inválido
 
 Neste caso será retornado um `"validation_error"` e a biblioteca irá rejeitar imediatamente a Promise, sem chegar a consultar nenhum fornecedor.
 
